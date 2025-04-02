@@ -11,8 +11,7 @@ function calculatehoursworkedAndhourlywage() {
   // input
   const TaxAmount= (4/3) 
   const hoursWorked = parseFloat(document.getElementById("radius").value);
-  const hoursworked = parseFloat(document.getElementById("width").value)
-  const hourlyWage = parseFloat(document.getElementById("height").value);
+  
   let Incometax = hoursWorked^3
   let takeHomeSalary = TaxAmount * Math.Pi * hoursWorked
   
