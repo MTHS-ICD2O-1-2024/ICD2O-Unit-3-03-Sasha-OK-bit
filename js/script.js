@@ -10,13 +10,13 @@
 function calculatehoursworkedAndhourlywage() {
   // input
   const TaxAmount= (4/3) 
-  const hoursWorked = parseFloat(document.getElementById("radius").value);
+  const radiusvalue = parseFloat(document.getElementById("radius").value);
 
-  let Incometax = hoursWorked**3
-  let takeHomeSalary = 4/3*Math.Pi*hoursWorked**3
+  let radiusanswer = radiusvalue**3
+  let takeHomeSalary = 4/3*Math.PI*radiusvalue**3
   
   document.getElementById('answer1').innerHTML = 
-    `Radius: ${Incometax.toFixed(2)} <br>
+    `Radius: ${radiusanswer.toFixed(2)} <br>
     Volume: ${takeHomeSalary.toFixed(2)}`
 
 }
